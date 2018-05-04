@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jewlbackend">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="ShopHop"
+        android:textSize="20sp"
+        android:id="@+id/shophop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shophop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Jewlery"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:id="@+id/shoes" />
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="156dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/cost1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img1"
+        android:layout_centerVertical="true"
+        android:text="Cost:--"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/cost2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img2"
+        android:layout_centerVertical="true"
+        android:text="Cost:--"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/img1"
+        android:layout_marginEnd="25dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/cost3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img3"
+        android:layout_centerVertical="true"
+        android:text="Cost:--"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/img1"
+        android:layout_marginBottom="122dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/cost4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp"
+        android:text="Cost:--"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img4"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/cost5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cost4"
+        android:layout_centerHorizontal="true"
+        android:text="Cost:--"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/img3"
+        android:layout_alignTop="@+id/img4"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/cost6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img3"
+        android:layout_alignTop="@+id/cost4"
+        android:text="Cost:--"
+        android:textSize="20dp" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

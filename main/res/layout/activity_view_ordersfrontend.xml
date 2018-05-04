@@ -1,0 +1,62 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shoesbackend">
+ <RelativeLayout>
+    <Button
+        android:id="@+id/shophop"
+        android:layout_width="151dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="ShopHop"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shophop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Orders"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:id="@+id/shoes" />
+ </RelativeLayout>
+
+
+    <TableRow>
+        <TextView
+          android:text="Customer"
+          android:textSize="15dp"
+          android:textColor="#000"/>
+
+        <TextView
+            android:text="   Email"
+            android:textColor="#000"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:text="   DeliveryType"
+            android:textColor="#000"
+            android:textSize="15dp"/>
+        <TextView
+            android:text="   Item id"
+            android:textSize="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:text="   Total items"
+            android:textColor="#000"
+            android:textSize="15dp"/>
+
+
+
+
+    </TableRow>
+
+
+</TableLayout>
